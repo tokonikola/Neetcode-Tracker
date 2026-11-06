@@ -16,7 +16,6 @@ for category_name, problems in data.items():
 
     row = cur.fetchone()
     c_id= row[0]
-    print(category_name, c_id)
 
     #inner loop iterates on each problem and its columns
     for title, fields in problems.items():
